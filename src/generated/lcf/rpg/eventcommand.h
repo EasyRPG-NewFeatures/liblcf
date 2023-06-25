@@ -182,7 +182,10 @@ namespace rpg {
 			Maniac_WritePicture = 3026,
 			Maniac_AddMoveRoute = 3027,
 			Maniac_EditTile = 3028,
-			Maniac_ControlTextProcessing = 3029
+			Maniac_ControlTextProcessing = 3029,
+			Mack_Pathfinder = 2001,
+			Mack_ActivateEvent = 2002,
+			CommandEditMenu = 2003
 		};
 
 		int32_t code = 0;
