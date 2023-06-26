@@ -36,6 +36,7 @@ BattleCommands,easyrpg_sequential_order,f,Boolean,0xCA,False,0,1,If alternative 
 BattleCommands,easyrpg_disable_row_feature,f,Boolean,0xCB,False,0,1,If the row feature should be disabled in RPG Maker 2003 games
 BattleCommands,easyrpg_fixed_actor_facing_direction,f,Int32,0xCC,0,0,1,"If actor facing direction shouldn't ever change during battle (0=Disabled, 1=Always flipped, 2=Never flipped)"
 BattleCommands,easyrpg_fixed_enemy_facing_direction,f,Int32,0xCD,0,0,1,"If enemy facing direction shouldn't ever change during battle (0=Disabled, 1=Always flipped, 2=Never flipped)"
+BattleCommands,easyrpg_horizontal_ally_enemy_selection,f,Boolean,0xCE,False,0,1,If the ally/enemy selection should be controlled with Left/Right instead of Up/Down
 Actor,easyrpg_actorai,f,Int32,0xC9,-1,0,0,Default autobattle AI behavior of the actor
 Actor,easyrpg_prevent_critical,f,Boolean,0xCA,False,0,0,If the actor is protected against critical hits
 Actor,easyrpg_raise_evasion,f,Boolean,0xCB,False,0,0,If the actor has an increased evasion rate

@@ -271,7 +271,9 @@ namespace LDB_Reader {
 			/** If actor facing direction shouldn't ever change during battle (0=Disabled, 1=Always flipped, 2=Never flipped) */
 			easyrpg_fixed_actor_facing_direction = 0xCC,
 			/** If enemy facing direction shouldn't ever change during battle (0=Disabled, 1=Always flipped, 2=Never flipped) */
-			easyrpg_fixed_enemy_facing_direction = 0xCD
+			easyrpg_fixed_enemy_facing_direction = 0xCD,
+			/** If the ally/enemy selection should be controlled with Left/Right instead of Up/Down */
+			easyrpg_horizontal_ally_enemy_selection = 0xCE
 		};
 	};
 	struct ChunkBattlerAnimation {

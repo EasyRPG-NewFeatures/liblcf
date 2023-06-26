@@ -167,6 +167,13 @@ static TypedField<rpg::BattleCommands, int32_t> static_easyrpg_fixed_enemy_facin
 	0,
 	1
 );
+static TypedField<rpg::BattleCommands, bool> static_easyrpg_horizontal_ally_enemy_selection(
+	&rpg::BattleCommands::easyrpg_horizontal_ally_enemy_selection,
+	LDB_Reader::ChunkBattleCommands::easyrpg_horizontal_ally_enemy_selection,
+	"easyrpg_horizontal_ally_enemy_selection",
+	0,
+	1
+);
 
 
 template <>
@@ -192,6 +199,7 @@ Field<rpg::BattleCommands> const* Struct<rpg::BattleCommands>::fields[] = {
 	&static_easyrpg_disable_row_feature,
 	&static_easyrpg_fixed_actor_facing_direction,
 	&static_easyrpg_fixed_enemy_facing_direction,
+	&static_easyrpg_horizontal_ally_enemy_selection,
 	NULL
 };
 
